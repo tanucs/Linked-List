@@ -71,7 +71,7 @@ using namespace std;
         insertAtHead(head,21);
         print(head);
         
-        insertAtTail(head,25);
+        insertAtTail(tail,25);
         print(head);
         
         
