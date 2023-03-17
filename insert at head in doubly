@@ -39,7 +39,7 @@ using namespace std;
         return len;
     }
     
-    void insertAtLength(Node* &head,int d){
+    void insertAtHead(Node* &head,int d){
        
        Node* temp = new Node(d);
        temp -> next =head;
@@ -56,7 +56,7 @@ using namespace std;
         print(head);
         cout<<getLength(head)<<endl;
         
-        insertAtLength(head,11);
+        insertAtHead(head,11);
         print(head);
     return 0;
 }
